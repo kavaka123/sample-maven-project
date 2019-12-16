@@ -27,12 +27,12 @@
     </dependency>
   </dependencies>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>Maven-Artifactory-Plugin</id>
-      <url>https://jcenter.bintray.com</url>
-    </pluginRepository>
-  </pluginRepositories>    
+ <pluginRepositories>
+   <pluginRepository>
+     <id>Maven-Artifactory-Plugin</id>
+     <url>https://jcenter.bintray.com</url>
+   </pluginRepository>
+ </pluginRepositories>
 
   <build>
 <plugins>

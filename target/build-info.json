@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "my-app",
-  "number" : "1576516868745",
+  "number" : "1576520894640",
   "type" : "MAVEN",
   "buildAgent" : {
     "name" : "Maven",
@@ -11,8 +11,8 @@
     "name" : "Maven",
     "version" : "3.6.3"
   },
-  "started" : "2019-12-16T22:51:10.749+0530",
-  "durationMillis" : 4413,
+  "started" : "2019-12-16T23:58:16.511+0530",
+  "durationMillis" : 4716,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -34,13 +34,13 @@
     "id" : "com.mycompany.app:my-app:1.0-SNAPSHOT",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "d2513b91e696ff46d2c544f534408fa37bce6cbb",
-      "md5" : "ba20bbc0620129a84298fd87d7502f40",
+      "sha1" : "38aa79a77d80ef901eafe8351d8363a89edcff7d",
+      "md5" : "3f0b20d5e83cbe02f6c88b8e9ee4ad10",
       "name" : "my-app-1.0-SNAPSHOT.jar"
     }, {
       "type" : "pom",
-      "sha1" : "a33c41057a71274ec8f5f154000d41f4fecbf942",
-      "md5" : "dc847d86fcf8bf7027c7ad2f4765e821",
+      "sha1" : "40d409e6699e38f14518be6e872dd30045d8f56c",
+      "md5" : "c9c8b873250e141a27562acf600e15b0",
       "name" : "my-app-1.0-SNAPSHOT.pom"
     } ],
     "dependencies" : [ {

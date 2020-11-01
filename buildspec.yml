@@ -28,12 +28,12 @@ reports:
   arn:aws:codebuild:ap-south-1:019668444105:report-group/junit-reports:
     files:
       - "**/*"
-    base_directory: 'target/*'
+    base-directory: 'target/*'
 
 artifacts:
   files:
     - target/my-app-1.0-SNAPSHOT.jar
-  discard_paths: yes
+  discard-paths: yes
 
 cache:
   paths:

@@ -1,0 +1,41 @@
+version: 0.2
+
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
+
+phases:
+  install:
+    commands:
+      - echo "Install maven utility"
+      - apt-get update -y
+      - apt-get install -y maven
+
+  pre_build:
+    commands:
+      - echo "no prebuild steps"
+
+  build:
+    commands:
+      - echo "Running maven install"  
+      - mvn install
+
+  post_build:
+    commands:
+      - echo "Build completed on $(date)"  
+
+reports:
+  arn:aws:codebuild:ap-south-1:019668444105:report-group/junit-reports:
+    files:
+      - "**/*"
+    base_directory: 'target/*'
+
+artifacts:
+  files:
+    - target/my-app-1.0-SNAPSHOT.jar
+  discard_paths: yes
+
+cache:
+  paths:
+    - '/root/.m2/**/*'        
+

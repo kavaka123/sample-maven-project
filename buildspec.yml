@@ -18,7 +18,7 @@ phases:
   build:
     commands:
       - echo "Running maven install"  
-      - mvn install
+      - echo "${JAVA_HOME}"
 
   post_build:
     commands:

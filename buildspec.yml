@@ -24,10 +24,10 @@ phases:
     commands:
       - echo "Build completed on $(date)"  
 
-reports:
-  arn:aws:codebuild:ap-south-1:019668444105:report-group/junit-reports:
-    files:
-      - "**/*"
+# reports:
+#   arn:aws:codebuild:ap-south-1:019668444105:report-group/junit-reports:
+#     files:
+#       - "**/*"
 
 artifacts:
   files:
